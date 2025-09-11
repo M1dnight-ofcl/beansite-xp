@@ -19,6 +19,9 @@ const LoadingScreen=()=>{
                 document.getElementById("loading").classList.add("fadeout");
                 setTimeout(()=>{document.getElementById("loading").style.display="none";},1000);
             }
+            if(confirm("There is new version of beansite. Would you like to switch?")){
+                window.location.href="https://mb7.vercel.app";
+            }
         };
         if(document.readyState === 'complete'){onPageLoad();}else{
             window.addEventListener('load', onPageLoad, false);

@@ -13,7 +13,7 @@ import { Taskbar, TaskbarIcon, StartMenu } from "./modules/Explorer";
 // import { createNotification } from "./store/notificationslice";
 import html2canvas from "html2canvas";
 import { Explorer } from "./modules/Explorer"
-import BeanShell from './modules/Beanshell';
+import BeanShell from './modules/BeanShell';
 import Settings from './modules/Settings';
 import ClosedBetaLogin from "./modules/closedBetaLogin";
 import BeanXPRouter from "./router";
